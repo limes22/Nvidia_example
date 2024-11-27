@@ -1,0 +1,26 @@
+# Python Exclusions
+.venv
+**__pycache__**
+
+# Helm Exclusions
+**/charts/*.tgz
+
+# project temp files
+deploy/*.log
+deploy/*.txt
+
+# Docker Compose exclusions
+volumes/
+uploaded_files/
+
+# Visual Studio Code
+.vscode
+
+# Node modules
+**/node_modules
+
+# File from docs builds
+docs/_*
+docs/notebooks
+docs/experimental
+docs/tools
